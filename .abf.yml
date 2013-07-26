@@ -1,2 +1,4 @@
+removed_sources:
+  Perl-Critic-Tics-0.006.tar.gz: 950cb0799d82b414b1ba98ea655519dd9b1adb5b
 sources:
-  "Perl-Critic-Tics-0.006.tar.gz": 950cb0799d82b414b1ba98ea655519dd9b1adb5b
+  Perl-Critic-Tics-0.007.tar.gz: 4b3423d966c92fc2a7e43df51336c1000d1b4de5

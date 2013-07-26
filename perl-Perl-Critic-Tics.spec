@@ -1,15 +1,15 @@
 %define upstream_name    Perl-Critic-Tics
-%define upstream_version 0.006
+%define upstream_version 0.007
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.007
+Release:	1
 
 Summary:	(this => is => not => good)
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-Tics-0.007.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -46,4 +46,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Thu Sep 02 2010 Jérôme Quelin <jquelin@mandriva.org> 0.6.0-1mdv2011.0
 + Revision: 575422
 - import perl-Perl-Critic-Tics
+
 
