@@ -1,15 +1,15 @@
 %define upstream_name    Perl-Critic-Tics
-%define upstream_version 0.008
+%define upstream_version 0.010
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	(this => is => not => good)
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-Tics-%{upstream_version}.tar.gz
+Url:		https://github.com/rjbs/Perl-Critic-Tics
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Perl-Critic-Tics-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
